@@ -11,3 +11,17 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+  
+body{
+    background: url("https://digitalsynopsis.com/wp-content/uploads/2017/02/beautiful-color-gradients-backgrounds-010-winter-neva.png");
+
+}
+
+.card.card-body{
+    border-radius: 8;
+    border-color: black solid ;
+}
+
+.col-6 {
+    margin: auto;
+}

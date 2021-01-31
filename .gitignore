@@ -28,9 +28,9 @@ Thumbs.db
 *.komodoproject
 
 # ignore log files and databases
-*.log
-*.sql
-*.sqlite
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # ignore compiled files
 *.com

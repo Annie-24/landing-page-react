@@ -12,7 +12,7 @@
     "no-unused-vars": 0,
     "no-mixed-spaces-and-tabs": 0,
     "no-debugger": 0,
-    "no-console": 1,
+   "no-console": 1,
     "semi": ["error", "always"],
     "allowImportExportEverywhere": false,
     "comma-dangle": [1, { //when to use the last comma
@@ -20,7 +20,7 @@
         "objects": "never",
         "imports": "never",
         "exports": "never",
-        "functions": "ignore",
+        "functions": "ignore"
     }],
     "react/prop-types": [2]
   },
