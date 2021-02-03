@@ -1,11 +1,17 @@
 import React from "react";
-import TodoList from "./todoList";
+import { Navbar } from "./Navbar";
+import { Jumbotron } from "./Jumbotron";
+import { Card } from "./Card";
+import { Footer } from "./Footer";
 
 //create your first component
 export function Home() {
 	return (
-		<div className="col-6 justify-content-center text-center mt-5">
-			<TodoList />
-		</div>
+		<>
+			<Navbar />
+			<Jumbotron />
+			<Card />
+			<Footer />
+		</>
 	);
 }
